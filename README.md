@@ -1,10 +1,10 @@
 [![Docker Repository on Quay](https://quay.io/repository/omerlh/zaproxy-operator/status "Docker Repository on Quay")](https://quay.io/repository/omerlh/zaproxy-operator)
 # zap-operator
 A little operator that makes it easy to hack your existing applications in production. 
-This tool is intended to run again your application, that you have permissions to attack.
+This tool is intended to run against your application, that you have permission to attack.
 Please do not use it for malicious purposes :)
 
-[OWASP Zaproxy](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project) is a great security tool, that can be used to detect a lot of security tools.
+[OWASP Zaproxy](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project) is a great security tool, that can be used to detect a lot of security vulnerabilties.
 This operator makes it easier to test your application in production.
 To attack an application, all you need to do is:
 * Install the operator (`helm repo add omerlh https://omerlh.github.io/zap-operator/ && helm install omerlh/zap-operator`)
